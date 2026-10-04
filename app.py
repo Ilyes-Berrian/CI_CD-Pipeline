@@ -9,12 +9,10 @@ def create_app():
     def home():
         print("inside home function")
         return 'Hi from /home route!'
-    
     @app.route('/about')
     def about():
         print("inside about function")
         return 'Hi from /about route!'
- 
     return app
 
 
