@@ -14,8 +14,7 @@ def create_app():
     def about():
         print("inside about function")
         return 'Hi from /about route!'
-    
-     
+ 
     return app
 
 
